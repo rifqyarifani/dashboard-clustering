@@ -83,10 +83,6 @@ export default function Dashboard() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             3D Cluster Visualization Dashboard
           </h1>
-          <p className="text-lg text-gray-600">
-            Visualisasi data klaster negara G20 berdasarkan PCA dengan ukuran
-            titik berdasarkan variabel tertentu
-          </p>
         </div>
 
         <Cluster3DPlot data={data} />
